@@ -1,0 +1,5 @@
+﻿  GladiatorSimulator.cpp
+d:\!!visual\pk4repo\projekt\gladiator simulator\gladiator simulator\gladiatorsimulator.cpp(4): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Gladiators.cpp
+  Generating Code...
+  Gladiator Simulator.vcxproj -> D:\!!Visual\PK4Repo\Projekt\Gladiator Simulator\Debug\Gladiator Simulator.exe
