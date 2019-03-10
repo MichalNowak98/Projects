@@ -1,0 +1,7 @@
+﻿Source.obj : error LNK2019: unresolved external symbol __imp__sfImage_createFromFile referenced in function _main
+c:\Users\Michał\Documents\Visual Libraries\CSFML-2.4\lib\msvc\\csfml-network.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+c:\Users\Michał\Documents\Visual Libraries\CSFML-2.4\lib\msvc\\csfml-audio.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+c:\Users\Michał\Documents\Visual Libraries\CSFML-2.4\lib\msvc\\csfml-window.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+c:\Users\Michał\Documents\Visual Libraries\CSFML-2.4\lib\msvc\\csfml-system.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+c:\Users\Michał\Documents\Visual Libraries\CSFML-2.4\lib\msvc\\csfml-graphics.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\!!Visual\Michal-Nowak-gr61-1-repo\Projekt\Filtering\Debug\Filtering.exe : fatal error LNK1120: 1 unresolved externals
