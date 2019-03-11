@@ -19,14 +19,14 @@ Gladiator::~Gladiator()
 /*Gladiator::Gladiator(int _base_health, int _base_stamina, int _base_adrenaline, int _base_dexterity, int _base_strength, int _base_fame) :
 	health(_base_health), stamina(_base_stamina), adrenaline(_base_adrenaline), dexterity(_base_dexterity), strength(_base_strength), fame(_base_fame) {};
 */
-bool Gladiator::if_dead()
+bool Gladiator::if_dead() const
 {
 	if (max_health > 0)
 		return false;
 	return true;
 }
 
-bool Gladiator::if_opponent_dead(Gladiator & opponent)
+bool Gladiator::if_opponent_dead(Gladiator & opponent) const
 {
 	if (opponent.if_dead())
 	{
@@ -36,7 +36,7 @@ bool Gladiator::if_opponent_dead(Gladiator & opponent)
 	return false;
 }
 
-unsigned int Gladiator::calculate_asking_price()
+unsigned int Gladiator::calculate_asking_price() const
 {
 	return (max_base_health/2 + (base_attack + base_defence + base_strength + base_defence) * 5 + random_int(0, 100));
 }

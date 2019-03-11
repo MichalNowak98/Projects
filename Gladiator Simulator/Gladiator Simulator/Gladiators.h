@@ -35,9 +35,9 @@ public:
 	~Gladiator();
 	//void attack(Gladiator &opponent);
 	//void skill(/*jakaœ zmienna zeby wybrac skilla*/);	//tablica 4elementowa?
-	bool if_dead();
-	bool if_opponent_dead(Gladiator &opponent);
-	unsigned int calculate_asking_price();
+	bool if_dead() const;
+	bool if_opponent_dead(Gladiator &opponent) const;
+	unsigned int calculate_asking_price() const;
 
 	/*
 	void calculate_statistics();

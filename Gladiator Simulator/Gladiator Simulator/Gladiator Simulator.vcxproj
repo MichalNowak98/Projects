@@ -116,14 +116,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Computing.cpp" />
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="Gladiators.cpp" />
     <ClCompile Include="GladiatorSimulator.cpp" />
     <ClCompile Include="Gear.cpp" />
+    <ClCompile Include="Lanista.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Computing.h" />
+    <ClInclude Include="Game.h" />
     <ClInclude Include="Gladiators.h" />
     <ClInclude Include="Gear.h" />
+    <ClInclude Include="Lanista.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

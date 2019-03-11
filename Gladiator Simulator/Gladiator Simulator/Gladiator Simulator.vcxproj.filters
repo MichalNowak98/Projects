@@ -27,6 +27,12 @@
     <ClCompile Include="Gear.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lanista.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Gladiators.h">
@@ -36,6 +42,12 @@
       <Filter>Resource Files</Filter>
     </ClInclude>
     <ClInclude Include="Gear.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lanista.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
   </ItemGroup>
