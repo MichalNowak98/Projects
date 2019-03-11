@@ -1,9 +1,6 @@
 #pragma once
 #include "Filters.h"
 #include "SimpleFunctions.h"
-#include<SFML\Graphics.h>
-#include<SFML\Window.h>
-#include<SFML\System.h>
 #include<stdio.h>
 #include<stdlib.h>
 enum filterIndex { median, minimal, maximal, averaging, low, high, gauss, laplace};

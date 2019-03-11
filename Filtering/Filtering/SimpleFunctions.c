@@ -1,8 +1,5 @@
 #pragma once
 #include "Filters.h"
-#include<SFML\Graphics.h>
-#include<SFML\Window.h>
-#include<SFML\System.h>
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>

@@ -6,7 +6,7 @@
 //Parametry:
 //a i b (konwertowane na typ double w ciele funkcji).
 //Funkcja zwraca 0 dla a == b, -1 dla b > a, 1 dla a > b.
-int compare(const void* a, const void* b);
+int compare(const double* a, const double* b);
 //Alokuje tablicê o podanym rozmiarze.
 //Parametry:
 //Przyjmuje adres zmiennej size typu sfVector2u zawieraj¹cej wymiary tablicy. 
