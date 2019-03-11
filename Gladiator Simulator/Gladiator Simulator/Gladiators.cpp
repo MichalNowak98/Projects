@@ -1,6 +1,6 @@
 #include "Gladiators.h"
 
-Gladiator::Gladiator(unsigned int _level, unsigned int _fame) : max_base_health(250 + random_int(25 * _level, 25 * _level + 100)),
+Gladiator::Gladiator(const unsigned int _level, const unsigned int _fame) : max_base_health(250 + random_int(25 * _level, 25 * _level + 100)),
 base_stamina(50 + random_int(5 * _level, 5 * _level + 10)), base_strength(random_int(_level, _level * 3)),
 base_dexterity(random_int(_level, _level * 3)), base_attack(5 + random_int(3 * _level, 3 * _level + 4)), adrenaline(0),
 base_defence(random_int(_level * 3, _level * 3 + 5)), fame(_fame), level(_level), weapon(nullptr), shield(nullptr), left_hand(Unussigned), rigth_hand(Unussigned)
@@ -26,7 +26,7 @@ bool Gladiator::if_dead() const
 	return true;
 }
 
-bool Gladiator::if_opponent_dead(Gladiator & opponent) const
+bool Gladiator::if_opponent_dead(const Gladiator & opponent) const
 {
 	if (opponent.if_dead())
 	{
@@ -41,23 +41,23 @@ unsigned int Gladiator::calculate_asking_price() const
 	return (max_base_health/2 + (base_attack + base_defence + base_strength + base_defence) * 5 + random_int(0, 100));
 }
 
-Thracian::Thracian(unsigned int _level, unsigned int _fame) : Gladiator(_level, _fame), dexterity_bonus(random_int(30, 40))
+Thracian::Thracian(const unsigned int _level, const unsigned int _fame) : Gladiator(_level, _fame), dexterity_bonus(random_int(30, 40))
 {
 	dexterity += base_dexterity * dexterity_bonus;
 }
 
-Gaul::Gaul(unsigned int _level, unsigned int _fame) : Gladiator(_level, _fame), health_bonus(random_int(15, 20)), strength_bonus(random_int(20, 30))
+Gaul::Gaul(const unsigned int _level, const unsigned int _fame) : Gladiator(_level, _fame), health_bonus(random_int(15, 20)), strength_bonus(random_int(20, 30))
 {
 	max_health += max_base_health * health_bonus;
 	strength += base_strength * strength_bonus;
 }
 
-Samnite::Samnite(unsigned int _level, unsigned int _fame) : Gladiator(_level, _fame), defense_bonus(random_int(20, 30))
+Samnite::Samnite(const unsigned int _level, const unsigned int _fame) : Gladiator(_level, _fame), defense_bonus(random_int(20, 30))
 {
 	defence += base_defence * defense_bonus;
 }
 
-Roman::Roman(unsigned int _level, unsigned int _fame) : Gladiator(_level, _fame), attack_bonus(random_int(20, 35))
+Roman::Roman(const unsigned int _level, const unsigned int _fame) : Gladiator(_level, _fame), attack_bonus(random_int(20, 35))
 {
 	attack += base_attack * attack_bonus;
 }

@@ -120,6 +120,7 @@
     <ClCompile Include="Gladiators.cpp" />
     <ClCompile Include="GladiatorSimulator.cpp" />
     <ClCompile Include="Gear.cpp" />
+    <ClCompile Include="Interface.cpp" />
     <ClCompile Include="Lanista.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -127,6 +128,7 @@
     <ClInclude Include="Game.h" />
     <ClInclude Include="Gladiators.h" />
     <ClInclude Include="Gear.h" />
+    <ClInclude Include="Interface.h" />
     <ClInclude Include="Lanista.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

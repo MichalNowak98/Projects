@@ -31,12 +31,12 @@ protected:
 	unsigned int asking_price;
 public:
 	//Gladiator(int _base_health, int _base_stamina, int _base_adrenaline, int _base_dexterity, int _base_strength, int _fame);
-	Gladiator(unsigned int _level, unsigned int _fame);
+	Gladiator(const unsigned int _level, const unsigned int _fame);
 	~Gladiator();
 	//void attack(Gladiator &opponent);
 	//void skill(/*jakaœ zmienna zeby wybrac skilla*/);	//tablica 4elementowa?
 	bool if_dead() const;
-	bool if_opponent_dead(Gladiator &opponent) const;
+	bool if_opponent_dead(const Gladiator &opponent) const;
 	unsigned int calculate_asking_price() const;
 
 	/*
@@ -54,7 +54,7 @@ class Roman : public Gladiator
 {
 	int attack_bonus;
 public:
-	Roman(unsigned int _level, unsigned int _fame);
+	Roman(const unsigned int _level, const unsigned int _fame);
 	//virtual void race_skill();
 };
 
@@ -63,7 +63,7 @@ class Samnite: public Gladiator
 {
 	int defense_bonus;
 public:
-	Samnite(unsigned int _level, unsigned int _fame);
+	Samnite(const unsigned int _level, const unsigned int _fame);
 };
 
 //uderzenie tarcza, wiecej zycia i sily
@@ -72,7 +72,7 @@ class Gaul: public Gladiator
 	int health_bonus;
 	int strength_bonus;
 public:
-	Gaul(unsigned int _level, unsigned int _fame);
+	Gaul(const unsigned int _level, const unsigned int _fame);
 };
 
 //bonus do sztyletu, podciecie sciegien, kontra(podczas ataku przeciwnika)
@@ -80,7 +80,7 @@ class Thracian : public Gladiator
 {
 	int dexterity_bonus;
 public:
-	Thracian(unsigned int _level, unsigned int _fame);
+	Thracian(const unsigned int _level, const unsigned int _fame);
 };
 
 Gladiator* create_gladiator();
