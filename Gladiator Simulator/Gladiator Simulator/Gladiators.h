@@ -1,5 +1,5 @@
 #pragma once
-#include "Computing.h"
+#include "Utilities.h"
 #include "Gear.h"
 enum Equipment {Unussigned, Assigned};
 class Gladiator
@@ -12,8 +12,8 @@ protected:
 	int attack;
 	int defence;
 
-	Gear* weapon;
-	Gear* shield;
+	Gear *weapon;
+	Gear *shield;
 	Equipment rigth_hand;
 	Equipment left_hand;
 

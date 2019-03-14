@@ -1,6 +1,9 @@
-﻿  Game.cpp
-d:\!!visual\pk4repo\projekt\gladiator simulator\gladiator simulator\game.cpp(9): warning C4018: '<': signed/unsigned mismatch
+﻿  Utilities.cpp
+  Game.cpp
+  Gladiators.cpp
   GladiatorSimulator.cpp
 d:\!!visual\pk4repo\projekt\gladiator simulator\gladiator simulator\gladiatorsimulator.cpp(5): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Gear.cpp
+  Lanista.cpp
   Generating Code...
   Gladiator Simulator.vcxproj -> D:\!!Visual\PK4Repo\Projekt\Gladiator Simulator\Debug\Gladiator Simulator.exe

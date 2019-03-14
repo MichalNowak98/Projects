@@ -1,5 +1,5 @@
 #pragma once
-#include"Computing.h"
+#include"Utilities.h"
 enum weapon_type {Sword, Axe, Dagger, Polearm, Spear_and_net, Light_shield, Tower_shield};
 enum slot_amount {One, Two};
 class Gear

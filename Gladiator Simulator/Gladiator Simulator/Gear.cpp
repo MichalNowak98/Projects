@@ -75,7 +75,7 @@ Gear::Gear()
 		break;
 	}
 	}
-}
+};
 
 int Gear::get_stamina_modificator() { return stamina_modificator; }
 

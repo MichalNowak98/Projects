@@ -1,6 +1,6 @@
 #include "Lanista.h"
 
-Lanista::Lanista(): next_player(nullptr)
+Lanista::Lanista(): next_player(nullptr), denarii(10000)
 {
 	name = ask_for_name();
 }

@@ -115,7 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Computing.cpp" />
+    <ClCompile Include="Utilities.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Gladiators.cpp" />
     <ClCompile Include="GladiatorSimulator.cpp" />
@@ -124,7 +124,7 @@
     <ClCompile Include="Lanista.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Computing.h" />
+    <ClInclude Include="Utilities.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Gladiators.h" />
     <ClInclude Include="Gear.h" />

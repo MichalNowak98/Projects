@@ -11,10 +11,10 @@ base_defence(random_int(_level * 3, _level * 3 + 5)), fame(_fame), level(_level)
 	strength = base_strength;
 	attack = base_attack;
 	defence = base_defence;
-}
+};
 Gladiator::~Gladiator()
 {
-}
+};
 
 /*Gladiator::Gladiator(int _base_health, int _base_stamina, int _base_adrenaline, int _base_dexterity, int _base_strength, int _base_fame) :
 	health(_base_health), stamina(_base_stamina), adrenaline(_base_adrenaline), dexterity(_base_dexterity), strength(_base_strength), fame(_base_fame) {};
@@ -44,23 +44,23 @@ unsigned int Gladiator::calculate_asking_price() const
 Thracian::Thracian(const unsigned int _level, const unsigned int _fame) : Gladiator(_level, _fame), dexterity_bonus(random_int(30, 40))
 {
 	dexterity += base_dexterity * dexterity_bonus;
-}
+};
 
 Gaul::Gaul(const unsigned int _level, const unsigned int _fame) : Gladiator(_level, _fame), health_bonus(random_int(15, 20)), strength_bonus(random_int(20, 30))
 {
 	max_health += max_base_health * health_bonus;
 	strength += base_strength * strength_bonus;
-}
+};
 
 Samnite::Samnite(const unsigned int _level, const unsigned int _fame) : Gladiator(_level, _fame), defense_bonus(random_int(20, 30))
 {
 	defence += base_defence * defense_bonus;
-}
+};
 
 Roman::Roman(const unsigned int _level, const unsigned int _fame) : Gladiator(_level, _fame), attack_bonus(random_int(20, 35))
 {
 	attack += base_attack * attack_bonus;
-}
+};
 
 Gladiator* create_gladiator()
 {

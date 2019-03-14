@@ -21,9 +21,6 @@
     <ClCompile Include="Gladiators.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Computing.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Gear.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -36,12 +33,12 @@
     <ClCompile Include="Interface.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Gladiators.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Computing.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
     <ClInclude Include="Gear.h">
@@ -54,6 +51,9 @@
       <Filter>Resource Files</Filter>
     </ClInclude>
     <ClInclude Include="Interface.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
   </ItemGroup>
