@@ -1,2 +1,3 @@
-Gra ma na celu postawiæ gracza w roli lanisty, którego g³ównym zadaniem jest wykupywanie gladiatorów na aukcjach, trenowanie ich i wystawianie do walki.
-Gladiatorzy maj¹ losowo przydzielane statystyki, pojedynki bêd¹ polegaæ na losowo wykonywanych atakach i umiejêtnoœciach specjalnych bazuj¹cych na statystykach gladiatorów.
+NieskoÅ„czone, zawieszone
+Gra ma na celu postawiÄ‡ gracza w roli lanisty, ktÃ³rego gÅ‚Ã³wnym zadaniem jest wykupywanie gladiatorÃ³w na aukcjach, trenowanie ich i wystawianie do walki.
+Gladiatorzy majÄ… losowo przydzielane statystyki, pojedynki bÄ™dÄ… polegaÄ‡ na losowo wykonywanych atakach i umiejÄ™tnoÅ›ciach specjalnych bazujÄ…cych na statystykach gladiatorÃ³w.
